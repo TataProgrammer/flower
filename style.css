@@ -1,0 +1,168 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.container{
+    max-width: 1110px;
+    padding: 0px 15px;
+    margin: 0px auto;
+    display: flex;
+   
+}
+.round{
+    background: yellow;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    margin:auto;
+}
+
+.beauty{
+    display: flex;
+    flex-grow: 1;
+}
+.flower{
+    width: 800px;
+    height: 700px;
+    display: flex;
+   flex-grow: 1;
+	position:relative;
+
+}
+
+.petal1{
+    background: red;
+	position:absolute;
+    top: 110px;
+    left: 519px;
+	width: 70px;
+	height:140px;
+	border-top-right-radius: 90px;
+    border-top-left-radius: 90px;
+    border:1px solid #000;
+	box-shadow: 1px 1px 4px #333;
+	
+}
+.petal2{
+    background:paleturquoise;
+	position:absolute;
+    top: 155px;
+    left: 630px;
+	width: 70px;
+	height:135px;
+	border-top-right-radius: 90px;
+	border-top-left-radius: 90px;
+    transform: rotate(40deg);
+    border:1px solid #000;
+	box-shadow: 1px 1px 4px #333;
+}
+
+.petal3{
+    background:blueviolet;
+	position:absolute;
+    top: 270px;
+    left: 685px;
+	width: 70px;
+	height:140px;
+	border-top-right-radius: 90px;
+	border-top-left-radius: 90px;
+    transform: rotate(90deg);
+    border:1px solid #000;
+	box-shadow: 1px 1px 4px #333;
+}
+
+.petal4{
+    background:palegreen;
+	position:absolute;
+    top: 375px;
+    left: 655px;
+	width: 70px;
+	height:140px;
+	border-top-right-radius: 90px;
+	border-top-left-radius: 90px;
+    transform: rotate(123deg);
+    border:1px solid #000;
+	box-shadow: 1px 1px 4px #333;
+}
+
+.petal5{
+    background:pink;
+	position:absolute;
+    top: 375px;
+    left: 380px;
+	width: 70px;
+	height:140px;
+	border-top-right-radius: 90px;
+	border-top-left-radius: 90px;
+    transform: rotate(-123deg);
+    border:1px solid #000;
+	box-shadow: 1px 1px 4px #333;
+}
+
+.petal6{
+    background:blue;
+	position:absolute;
+    top: 270px;
+    left: 350px;
+	width: 70px;
+	height:140px;
+	border-top-right-radius: 90px;
+	border-top-left-radius: 90px;
+    transform: rotate(-90deg);
+    border:1px solid #000;
+	box-shadow: 1px 1px 4px #333;
+}
+.petal7{
+    background:peru;
+	position:absolute;
+    top: 155px;
+    left: 410px;
+	width: 70px;
+	height:135px;
+	border-top-right-radius: 90px;
+	border-top-left-radius: 90px;
+    transform: rotate(-40deg);
+    border:1px solid #000;
+	box-shadow: 1px 1px 4px #333;
+}
+
+
+
+.stem{
+    position:absolute;
+   bottom: 10px;
+    left:550px;
+	width: 10px;
+	height: 240px;
+	background: green;
+}
+
+
+.centerleaf{
+	position:absolute;
+	width: 60px;
+	height: 30px;
+    background: green;
+    top: 540px;
+	left: 558px;
+	border-bottom-right-radius: 38px;
+    border-top-left-radius: 32px;
+  
+}
+
+.bottomleaf{
+    position:absolute;
+	width: 60px;
+	height: 30px;
+    background: green;
+    top: 660px;
+	left: 493px;
+	border-bottom-left-radius: 38px;
+    border-top-right-radius: 32px;
+}
+
+
+
